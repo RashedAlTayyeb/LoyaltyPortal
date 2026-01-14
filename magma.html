@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magma - Industrial Solutions</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="animations.css">
+    <style>
+        .offer-hero {
+            background: linear-gradient(135deg, #ea580c 0%, #f7f6f6 100%);
+            color: var(--neutral-0);
+            padding: 80px 0;
+            text-align: center;
+        }
+        
+        .offer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 32px;
+            margin: 64px 0;
+        }
+        
+        .offer-card {
+            background: var(--neutral-0);
+            border-radius: 8px;
+            padding: 32px;
+            box-shadow: var(--shadow-card);
+            transition: var(--transition-smooth);
+            border: 1px solid var(--neutral-200);
+        }
+        
+        .offer-card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-card-hover);
+        }
+        
+        .offer-badge {
+            display: inline-block;
+            background: #ea580c;
+            color: var(--neutral-0);
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 16px;
+        }
+        
+        .offer-title {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 12px;
+            color: var(--primary-900);
+        }
+        
+        .offer-description {
+            color: var(--primary-700);
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+        
+        .offer-benefit {
+            background: #706e6d;
+            color: var(--neutral-0);
+            padding: 16px;
+            border-radius: 4px;
+            margin-bottom: 20px;
+            font-weight: 600;
+            text-align: center;
+        }
+        
+        .offer-terms {
+            font-size: 14px;
+            color: var(--primary-700);
+            border-top: 1px solid var(--neutral-200);
+            padding-top: 16px;
+        }
+        
+        .back-button {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--accent-500);
+            text-decoration: none;
+            font-weight: 500;
+            margin-bottom: 32px;
+            transition: var(--transition-fast);
+        }
+        
+        .back-button:hover {
+            color: var(--neutral-0);
+        }
+    </style>
+</head>
+<body>
+    <!-- Offer Hero -->
+    <section class="offer-hero">
+        <div class="container">
+            <a href="../index.html" class="back-button">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M19 12H5M12 19l-7-7 7-7"/>
+                </svg>
+                Back to All Offers
+            </a>
+            <h1 class="hero-title">Magma Lifestyle & Fitness Center</h1>
+            <p class="hero-subtitle">MIND.BODY.SOUL.</p>
+        </div>
+    </section>
+
+    <!-- Offers Section -->
+    <section class="companies-section">
+        <div class="container">
+            <div class="offer-grid">
+                <!-- Offer 1 -->
+                <div class="offer-card" data-animate="fade-up" data-delay="200">
+                    <span class="offer-badge">Gym</span>
+                    <h3 class="offer-title">Gym Membership</h3>
+                    <p class="offer-description">For 12 months using all gym utilities 890JD for coorperates of Nuqul Group Only.</p>
+                    <div class="offer-benefit">Save: 70JD </div>
+                    <div class="offer-terms">
+                        <strong>Terms:</strong> Magma Terms.
+                    </div>
+                </div>
+
+                <!-- Offer 2 -->
+                <div class="offer-card" data-animate="fade-up" data-delay="400">
+                    <span class="offer-badge">Gym</span>
+                    <h3 class="offer-title">Gym Membership</h3>
+                    <p class="offer-description">For 6 months using all gym utilities 480JD for coorperates of Nuqul Group Only.</p>
+                    <div class="offer-benefit">Save: 60JD</div>
+                    <div class="offer-terms">
+                        <strong>Terms:</strong> Magma Terms.
+                    </div>
+                </div>
+                <!-- Offer 3 -->
+                <div class="offer-card" data-animate="fade-up" data-delay="200">
+                    <span class="offer-badge">Gym</span>
+                    <h3 class="offer-title">Gym Membership</h3>
+                    <p class="offer-description">For 3 months using all gym utilities 275JD for coorperates of Nuqul Group Only.</p>
+                    <div class="offer-benefit">Save: 50JD </div>
+                    <div class="offer-terms">
+                        <strong>Terms:</strong> Magma Terms.
+                    </div>
+                </div>
+                <!-- Offer 4 -->
+                <div class="offer-card" data-animate="fade-up" data-delay="200">
+                    <span class="offer-badge">Gym</span>
+                    <h3 class="offer-title">Gym Membership</h3>
+                    <p class="offer-description">For 1 month using all gym utilities 100JD for coorperates of Nuqul Group Only.</p>
+                    <div class="offer-benefit">Save: 25JD </div>
+                    <div class="offer-terms">
+                        <strong>Terms:</strong> Magma Terms.
+                    </div>
+                </div>
+                <!-- Offer 5 -->
+                <div class="offer-card" data-animate="fade-up" data-delay="200">
+                    <span class="offer-badge">Gym</span>
+                    <h3 class="offer-title">Gym Membership</h3>
+                    <p class="offer-description">For 15 visits using all gym utilities 100JD for coorperates of Nuqul Group Only.</p>
+                    <div class="offer-benefit">Save: 25JD </div>
+                    <div class="offer-terms">
+                        <strong>Terms:</strong> Magma Terms.
+                    </div>
+                </div>
+                <!-- Offer 6 -->
+                <div class="offer-card" data-animate="fade-up" data-delay="200">
+                    <span class="offer-badge">PT</span>
+                    <h3 class="offer-title">Personal Training Membership</h3>
+                    <p class="offer-description">For 12 sessions for 2 people with a specialized personal trainer for 600JD/300JD per person for coorperates of Nuqul Group Only.</p>
+                    <div class="offer-benefit">Save: 180JD </div>
+                    <div class="offer-terms">
+                        <strong>Terms:</strong> Magma Terms.
+                    </div>
+                </div>
+                <!-- Offer 7 -->
+                <div class="offer-card" data-animate="fade-up" data-delay="200">
+                    <span class="offer-badge">PT</span>
+                    <h3 class="offer-title">Personal Training Membership</h3>
+                    <p class="offer-description">For 12 sessions for 3 people with a sepcialized personal trainer for 750JD/250JD per person for coorperates of Nuqul Group Only.</p>
+                    <div class="offer-benefit">Save: 230JD </div>
+                    <div class="offer-terms">
+                        <strong>Terms:</strong> Magma Terms.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Nuqul Group</h3>
+                    <p>Employee Loyalty Program</p>
+                </div>
+                <div class="footer-links">
+                    <a href="../index.html">Home</a>
+                    <a href="#contact">Contact</a>
+                    <a href="#terms">Terms</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Nuqul Group. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
